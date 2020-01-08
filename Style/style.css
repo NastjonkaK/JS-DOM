@@ -8,7 +8,7 @@ body {
 .container {
 	margin: 5% auto;
 	width: 80%;
-	background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("../Sourse/Austria.jpg");
+	background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("../Sourse/Europe.jpg");
 	background-size: 100%;
 	background-position: center;
 	border: 2px solid #bbb;
@@ -31,7 +31,7 @@ body {
 	padding: 0;
 	height: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-direction: column;
 }
 
@@ -63,4 +63,60 @@ body {
 .shortDescription {
 	text-align: justify;
 	line-height: 1.5;
+}
+
+
+@media screen and (max-width: 950px) {
+
+	.content {
+		padding-bottom: 15%;
+	}
+
+	.countries li {
+		font-size: 80%;
+	}
+	.shortDescription {
+		font-size: 90%;
+	}
+
+	.countryName {
+		font-size: 100%;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+
+	.content {
+		padding-bottom: 15%;
+	}
+
+	.countries li, .shortDescription {
+		font-size: 70%;
+	}
+
+	.countryName {
+		font-size: 90%;
+	}
+
+}
+
+@media screen and (max-width: 550px) {
+
+	.menu {
+		margin-top: 0;
+	}
+
+	.content {
+		padding-bottom: 5%;
+	}
+
+	.countries li, .shortDescription {
+		font-size: 50%;
+	}
+
+	.countryName {
+		font-size: 70%;
+	}
+
 }
