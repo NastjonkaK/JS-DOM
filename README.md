@@ -1,1 +1,1 @@
-[JS-DOM!](https://nastjonkak.github.io)
+[JS-DOM!](https://nastjonkak.github.io/JS-DOM/)
